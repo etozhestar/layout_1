@@ -9,9 +9,7 @@ html(lang="ru")
         meta(http-equiv="X-UA-Compatible" content="ie=edge")
         title #{title}
         link(rel="stylesheet" href="css/style.min.css")
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+        link(rel="preconnect" href="https://fonts.gstatic.com")
+        link(rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap")
     body
         include ../modules/header/header
-        block content
-        include ../modules/footer/footer
-        script(src='js/script.min.js')

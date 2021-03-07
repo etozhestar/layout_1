@@ -347,3 +347,21 @@ template {
 [hidden] {
   display: none;
 }
+
+/**
+ * Custom style
+ */
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  outline: 0;
+}
+
+h1,
+p {
+  margin: 0;
+}
