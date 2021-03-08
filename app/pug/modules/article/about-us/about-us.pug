@@ -1,19 +1,41 @@
-include ../../../commons/mixins
-
 section.about-us
     .container
-        .about-us__wrapper
-            .about-us-guarantee
-                .about-us-guarantee__wrapper
-                    .about-us-guarantee__left
-                        .about-us-text
-                            .about-us-text__title Высокие стандарты разработки
-                            .about-us-text__text
-                                | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
-                                | является стандартной "рыбой" для текстов на латинице с начала XVI века. стандартной
-                                | "рыбой" для текстов на латинице с начала XVI века.
-                            a(href='#').about-us-text__link Подробнее о компании
-                    .about-us-guarantee__right
-                        .about-us-img
-                            .about-us-img__image
-            +about-us-projects(5)
+        .about-us__wrap
+            .about-us__content
+                .about-us__left
+                    .block-text
+                        .block-text__wrap.block-text__wrap--about-us
+                            h2.block-text__title.block-text__title--about-us Высокие стандарты разработки
+                            p.block-text__desc.block-text__desc--about-us
+                                | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                                | Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                                | стандартной "рыбой" для текстов на латинице с начала XVI века.
+                    a(href="").about-us__link Подробнее о компании
+                .about-us__right
+                    img(src="img/projects.jpg").about-us__img
+            .about-us__items
+                .about-us__item
+                    .about-us__value
+                        img(src="img/svg/icon-web-programming.svg").about-us__icon
+                        p.about-us__text 125
+                    p.about-us__name Our projects
+                .about-us__item
+                    .about-us__value
+                        img(src="img/svg/icon-web-programming.svg").about-us__icon
+                        p.about-us__text 125
+                    p.about-us__name Our projects
+                .about-us__item
+                    .about-us__value
+                        img(src="img/svg/icon-web-programming.svg").about-us__icon
+                        p.about-us__text 125
+                    p.about-us__name Our projects
+                .about-us__item
+                    .about-us__value
+                        img(src="img/svg/icon-web-programming.svg").about-us__icon
+                        p.about-us__text 125
+                    p.about-us__name Our projects
+                .about-us__item
+                    .about-us__value
+                        img(src="img/svg/icon-web-programming.svg").about-us__icon
+                        p.about-us__text 125
+                    p.about-us__name Our projects
