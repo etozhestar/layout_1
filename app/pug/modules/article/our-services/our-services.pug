@@ -2,13 +2,29 @@ include ../../../commons/mixins
 
 section.our-services
     .container
-        .our-services__wrapper
-            .our-services-text
-                .our-services-text__title Мы создаем мобильные приложения для крупных корпораций
-                .our-services-text__subtitle
-                    | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
-                    | является стандартной "рыбой" для текстов на латинице с начала XVI века.
-            +our-services-services(3)
-            .our-services__wrap-btn
-                .button
-                    a(href='#').button__btn Все услуги
+        .our-services__wrap
+            .block-text
+                .block-text__wrap
+                    h2.block-text__title Мы создаем мобильные приложения для крупных корпораций
+                    p.block-text__desc
+                        | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                        | является стандартной "рыбой" для текстов на латинице с начала XVI века.
+            .our-services__items
+                .our-services__item
+                    img(src="./img/svg/icon-service.svg").our-services__icon
+                    .our-services__text
+                        h3.our-services__title Создание сайтов
+                        p.our-services__desc Lorem Ipsum - это текст- "рыба", часто использует в печати и вэб-дизайне.
+                .our-services__item
+                    img(src="./img/svg/icon-service.svg").our-services__icon
+                    .our-services__text
+                        h3.our-services__title Создание сайтов
+                        p.our-services__desc Lorem Ipsum - это текст- "рыба", часто использует в печати и вэб-дизайне.
+                .our-services__item
+                    img(src="./img/svg/icon-service.svg").our-services__icon
+                    .our-services__text
+                        h3.our-services__title Создание сайтов
+                        p.our-services__desc Lorem Ipsum - это текст- "рыба", часто использует в печати и вэб-дизайне.
+            .button
+                .button__wrap
+                    button.button__btn Все услуги

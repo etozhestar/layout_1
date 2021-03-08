@@ -2,6 +2,7 @@
 @import "normalize";
 
 
+
 /*** Миксины, шрифты, переменные и тд. ***/
 @import "commons/variables";
 @import "commons/mixins";
@@ -28,6 +29,14 @@
 
 /* Кнопка */
 @import "blocks/button/button";
+
+
+/** Главное содержимое **/
+/** Наши услуги **/
+@import "blocks/our-services/our-services";
+
+/* Главный текст */
+@import "blocks/block-text/block-text";
 
 
 

@@ -1,0 +1,41 @@
+.our-services {
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 0;
+  }
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 70px 0 55px 0;
+  }
+
+  &__item {
+    display: flex;
+  }
+
+  &__icon {
+    height: 110px;
+  }
+
+  &__text {
+    width: 200px;
+    padding: 50px 0 0 20px;
+  }
+
+  &__title {
+    padding: 0 0 10px 0;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  &__desc {
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+  }
+}
