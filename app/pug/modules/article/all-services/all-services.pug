@@ -1,10 +1,36 @@
-include ../../../commons/mixins
-
 section.all-services
     .container
-        .all-services__wrapper
-            .all-services-text
-                .all-services-text__title Наши работы, на которых мы специализируемся
+        .all-services__wrap
+            .all-services__content
+                h2.all-services__title Наши работы, на которых <br>  мы специализируемся
                 .button
-                    a(href='#').button__btn Все услуги
-            +all-services-services(3)
+                    .button__wrap
+                        button.button__btn Все услуги
+            .all-services__items
+                .all-services__item
+                    img(src="img/all-services.jpg").all-services__img
+                    h3.all-services__subtitle
+                        span.all-services__value 01.&#32;
+                        | Исследование и упаковка
+                    p.all-services__text
+                        | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                        | Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                    a(href="").all-services__link Подробнее
+                .all-services__item
+                    img(src="img/all-services.jpg").all-services__img
+                    h3.all-services__subtitle
+                        span.all-services__value 01.&#32;
+                        | Исследование и упаковка
+                    p.all-services__text
+                        | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                        | Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                    a(href="").all-services__link Подробнее
+                .all-services__item
+                    img(src="img/all-services.jpg").all-services__img
+                    h3.all-services__subtitle
+                        span.all-services__value 01.&#32;
+                        | Исследование и упаковка
+                    p.all-services__text
+                        | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                        | Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                    a(href="").all-services__link Подробнее
