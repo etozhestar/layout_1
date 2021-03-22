@@ -1,14 +1,12 @@
 section.subscribe
     .container
-        .subscribe__wrapper
+        .subscribe__wrap
             form().subscribe-form
-                .subscribe-form__wrapper
-                    .subscribe-form-text
-                        .subscribe-form-text__title Подпишись на рассылку
-                        .subscribe-form-text__subtitle Полезные статьи, акции, новости - получите все это сейчас!
-                    .subscribe-form-button
-                        .subscribe-form-button__wrapper
-                            input(type='email' placeholder='Ваш e-mail' name='email' required).subscribe-form-button__email
-                            button(type='submit').subscribe-form-button__btn Подписаться
-                    .subscribe-form-spam
-                        .subscribe-form-spam__desc Мы не шлем спам, и не передаем никому ваши данные.
+                .subscribe-form__wrap
+                    .subscribe-form__text
+                        .subscribe-form__title Подпишись на рассылку
+                        .subscribe-form__desc Полезные статьи, акции, новости - получите все это сейчас!
+                    .subscribe-form__button
+                        input(type='email' placeholder='Ваш e-mail' name='email' required).subscribe-form__email
+                        button(type='submit').subscribe-form__btn Подписаться
+                    .subscribe-form__spam Мы не шлем спам, и не передаем никому ваши данные.

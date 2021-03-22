@@ -352,7 +352,8 @@ template {
  * Custom style
  */
 
-button {
+button,
+input{
   padding: 0;
   border: none;
   font: inherit;
