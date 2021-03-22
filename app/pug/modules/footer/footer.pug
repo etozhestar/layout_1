@@ -1,37 +1,60 @@
-include ../../commons/mixins
-include ../../commons/variables
-
 footer.footer
     .container
-        .footer__wrapper
-            .footer-items
-                .footer-items__wrapper
-                    .footer-items-contact
-                        .footer-items-contact__wrapper
-                            .footer-items-contact__title Контактная информация
-                            a(href='mailto:test@test.ru').footer-items-contact__link
-                                +add-svg('footer-items-contact__image footer-items-contact__email', 'icon-email')
-                                | test@test.ru
-                            a(href='tel:+87775556699').footer-items-contact__link
-                                +add-svg('footer-items-contact__image footer-items-contact__phone', 'icon-phone')
-                                | +8 777 555 66 99
-                            a(href='#').footer-items-contact__link
-                                +add-svg('footer-items-contact__image footer-items-contact__position', 'icon-position')
-                                | Москва, Бульвар Ленина 33
-                    .footer-items-block
-                        .footer-items-block-links.footer-items-block-main-links.footer-items-block-links__wrapper
-                            +footer-items-block-main-links(item_mainLinks)
-                        .footer-items-block-links.footer-items-block-our-projects.footer-items-block-links__wrapper
-                            +footer-items-block-our-projects(item_ourProjects)
-                        .footer-items-block-links.footer-items-block-social-links.footer-items-block-links__wrapper
-                            +footer-items-block-social-links(item_socialLinks)
-                    .footer-items-block-mobile
-                        .footer-items-block-mobile-links.footer-items-block-mobile-main-links.footer-items-block-mobile-links__wrapper.hide-list-js
-                            +footer-items-block-mobile-main-links(item_mainLinks)
-                        .footer-items-block-mobile-links.footer-items-block-mobile-our-projects.footer-items-block-mobile-links__wrapper.hide-list-js
-                            +footer-items-block-mobile-our-projects(item_ourProjects)
-                        .footer-items-block-mobile-links.footer-items-block-mobile-social-links.footer-items-block-mobile-links__wrapper.hide-list-js
-                            +footer-items-block-mobile-social-links(item_socialLinks)
+        .footer__wrap
+            .footer__items
+                .footer__item
+                    .footer__title Контактная информация
+                    a(href='mailto:test@test.ru').footer__link
+                        img(src='img/svg/icon-email.svg').footer__icon
+                        | test@test.ru
+                    a(href='tel:+87775556699').footer__link
+                        img(src='img/svg/icon-phone.svg').footer__icon
+                        | +8 777 555 66 99
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-position.svg').footer__icon
+                        | Москва, Бульвар Ленина 33
+                .footer__item
+                    .footer__title Основные ссылки
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-right-arrow.svg').footer__icon
+                        | Главная
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-right-arrow.svg').footer__icon
+                        | Наши проекты
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-right-arrow.svg').footer__icon
+                        | Наши услуги
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-right-arrow.svg').footer__icon
+                        | Контакты
+                .footer__item
+                    .footer__title Наши проекты
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-right-arrow.svg').footer__icon
+                        | РосНано
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-right-arrow.svg').footer__icon
+                        | Сколково
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-right-arrow.svg').footer__icon
+                        | Проект "Восток"
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-right-arrow.svg').footer__icon
+                        | ТЭЦ Калининграда
+                .footer__item
+                    .footer__title Социальные сети
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-right-arrow.svg').footer__icon
+                        | VK.com
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-right-arrow.svg').footer__icon
+                        | Instagram
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-right-arrow.svg').footer__icon
+                        | Facebook
+                    a(href='#').footer__link
+                        img(src='img/svg/icon-right-arrow.svg').footer__icon
+                        | Twitter
             .footer-copyright
-                .footer-copyright__wrapper
+                .footer-copyright__wrap
                     .footer-copyright__copy (с) 2019. Все права защищены.

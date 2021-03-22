@@ -1,0 +1,12 @@
+.footer-copyright {
+  &__wrap {
+    border-top: 1px solid #E0E0E0;
+  }
+
+  &__copy {
+    padding: 30px 0;
+    font-size: 13px;
+    text-align: center;
+    color: #999999;
+  }
+}
