@@ -1,14 +1,21 @@
-include ../../../commons/mixins
-
 section.all-projects
     .container
-        .all-projects__wrapper
-            .our-services-text
-                .our-services-text__title Наши проекты
-                .our-services-text__subtitle
-                    | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
-                    | является стандартной "рыбой" для текстов на латинице с начала XVI века.
-            +all-projects-projects(4)
-            .all-projects__wrap-btn
-                .button
-                    a(href='#').button__btn Все проекты
+        .all-projects__wrap
+            .block-text
+                .block-text__wrap
+                    h2.block-text__title Наши продукты
+                    p.block-text__desc
+                        | Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                        | является стандартной "рыбой" для текстов на латинице с начала XVI века.
+            .all-projects__items
+                .all-projects__item
+                    img(src="img/code.jpg").all-projects__img
+                .all-projects__item
+                    img(src="img/code.jpg").all-projects__img
+                .all-projects__item
+                    img(src="img/code.jpg").all-projects__img
+                .all-projects__item
+                    img(src="img/code.jpg").all-projects__img
+            .button
+                .button__wrap
+                    button.button__btn Все проекты
