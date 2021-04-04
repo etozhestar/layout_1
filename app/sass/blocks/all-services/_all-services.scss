@@ -57,5 +57,10 @@
     font-weight: 500;
     text-decoration-line: underline;
     color: #4985FF;
+    transition: $transition;
+
+    &:hover {
+      color: $color-link_hover;
+    }
   }
 }

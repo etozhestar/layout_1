@@ -16,10 +16,10 @@
     line-height: 20px;
     text-decoration-line: underline;
     color: #4985FF;
-    transition: color .2s ease-in;
+    transition: $transition;
 
     &:hover {
-      color: #286dff;
+      color: $color-link_hover;
     }
   }
 

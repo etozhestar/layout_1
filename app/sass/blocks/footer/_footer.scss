@@ -22,7 +22,12 @@
     align-items: center;
     padding: 10px 0;
     font-size: 14px;
-    color: #999999;
+    color: $color-link;
+    transition: $transition;
+
+    &:hover {
+      color: $color-link_hover;
+    }
   }
 
   &__icon {

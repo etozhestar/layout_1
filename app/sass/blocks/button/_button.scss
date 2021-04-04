@@ -1,6 +1,6 @@
 .button {
   &__btn {
-    background-color: #4985FF;
+    background-color: $color-button;
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
     padding: 15px 36px;
@@ -8,10 +8,10 @@
     font-weight: 500;
     line-height: 20px;
     cursor: pointer;
-    transition: background .1s ease-in;
+    transition: $transition;
 
     &:hover {
-      background-color: #286dff;
+      background-color: $color-button_hover;
     }
   }
 }
