@@ -2,7 +2,7 @@
   background-color: #F6F6F8;
 
   &__wrap {
-    padding: 110px 0 60px 0;
+    padding: 99px 0 67px 0;
   }
 
   &__content {
@@ -12,6 +12,7 @@
   }
 
   &__link {
+    padding: 0 0 0 19px;
     font-weight: 500;
     line-height: 20px;
     text-decoration-line: underline;
@@ -24,15 +25,20 @@
   }
 
   &__img {
-    width: 550px;
+    margin: 0 20px 0 0;
+    width: 500px;
     box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
   }
 
   &__items {
     display: flex;
-    justify-content: space-between;
-    padding: 80px 0 0 0;
+    justify-content: center;
+    padding: 68px 0 0 0;
+  }
+
+  &__item {
+    padding: 0 52px;
   }
 
   &__value {
@@ -51,7 +57,7 @@
   }
 
   &__name {
-    padding: 5px 0 0 0;
+    padding: 8px 0 0 0;
     color: #999999;
   }
 }

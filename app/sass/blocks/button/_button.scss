@@ -3,7 +3,7 @@
     background-color: $color-button;
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
-    padding: 15px 36px;
+    padding: 12.5px 37px;
     color: #FFF;
     font-weight: 500;
     line-height: 20px;
@@ -12,6 +12,19 @@
 
     &:hover {
       background-color: $color-button_hover;
+    }
+
+    &_our-services {
+      padding: 13px 54px;
+    }
+
+    &_all-services {
+      margin: 0 0 12px 0;
+      padding: 13px 54px;
+    }
+
+    &_all-projects {
+      padding: 13px 46px;
     }
   }
 }
