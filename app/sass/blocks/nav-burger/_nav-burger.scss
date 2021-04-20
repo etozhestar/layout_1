@@ -1,15 +1,20 @@
-.nav {
+.nav-burger {
   &__wrap {
-    display: flex;
-    justify-content: flex-end;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 
-    @include e-e_mq-extra-small {
+    @include mq-small_large {
       display: none;
     }
   }
 
   &__item {
-    padding: 40px 20.3px 37px 20.3px;
+    padding: 10px 0;
     color: #FFF;
     font-weight: 500;
     line-height: 20px;

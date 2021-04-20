@@ -3,42 +3,68 @@
 
   &__wrap {
     padding: 99px 0 67px 0;
+
+    @include mq-extra-e-e-small {
+      padding: 40px 0;
+    }
   }
 
   &__content {
     display: flex;
     padding: 0 0 90px 0;
-    border-bottom: 1px solid #E0E0E0;;
+    border-bottom: 1px solid #E0E0E0;
+
+    @include mq-extra-e-e-small {
+      padding: 0 0 40px 0;
+    }
   }
 
   &__link {
     padding: 0 0 0 19px;
     font-weight: 500;
-    line-height: 20px;
-    text-decoration-line: underline;
+    line-height: 1.25;
     color: #4985FF;
     transition: $transition;
 
     &:hover {
       color: $color-link_hover;
     }
+
+    @include mq-extra-e-e-small {
+      display: block;
+      padding: 0;
+      text-align: center;
+    }
   }
 
   &__img {
-    margin: 0 20px 0 0;
     width: 500px;
+    margin: 0 20px 0 0;
     box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
     border-radius: 30px;
+
+    @include mq-extra-e-e-small {
+      display: none;
+    }
   }
 
   &__items {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 68px 0 0 0;
+
+    @include mq-extra-e-e-small {
+      padding: 30px 0 0 0;
+    }
   }
 
   &__item {
     padding: 0 52px;
+
+    @include mq-extra-e-e-small {
+      margin: 0 0 20px 0;
+    }
   }
 
   &__value {

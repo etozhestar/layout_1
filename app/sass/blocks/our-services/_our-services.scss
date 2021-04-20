@@ -4,6 +4,10 @@
     flex-direction: column;
     align-items: center;
     padding: 106px 0;
+
+    @include mq-extra-e-e-small {
+      padding: 40px 0;
+    }
   }
 
   &__items {
@@ -12,30 +16,46 @@
     justify-content: space-around;
     width: 100%;
     padding: 62px 0 48px 0;
+
+    @include mq-extra-e-e-small {
+      padding: 30px 0 20px 0;
+    }
   }
 
   &__item {
     display: flex;
+
+    @include mq-extra-e-e-small {
+      padding: 0 0 15px 0;
+    }
   }
 
   &__icon {
     height: 110px;
+
+    @include mq-extra-e-e-small {
+      height: 80px;
+    }
   }
 
   &__text {
-    width: 223px;
+    max-width: 223px;
     padding: 47px 0 0 12px;
+
+    @include mq-extra-e-e-small {
+      padding: 20px 0 0 6px;
+    }
   }
 
   &__title {
     padding: 0 0 10px 0;
     font-weight: 600;
-    line-height: 22px;
+    line-height: 1.375;
   }
 
   &__desc {
     font-size: 14px;
-    line-height: 22px;
+    line-height: 1.57;
     color: #999999;
   }
 }

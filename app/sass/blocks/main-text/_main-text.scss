@@ -4,6 +4,10 @@
     flex-direction: column;
     align-items: center;
     padding: 218px 0 335px 0;
+
+    @include mq-extra-e-e-small {
+      padding: 40px 0;
+    }
   }
 
   &__title {
@@ -11,8 +15,12 @@
     color: #FFF;
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     text-align: center;
+
+    @include mq-extra-e-e-small {
+      padding: 0 0 5px 0;
+    }
   }
 
   &__slogan {
@@ -20,7 +28,12 @@
     color: #FFF;
     font-weight: 800;
     font-size: 48px;
-    line-height: 64px;
+    line-height: 1.3;
     text-align: center;
+
+    @include mq-extra-e-e-small {
+      padding: 0 0 15px 0;
+      font-size: 26px;
+    }
   }
 }

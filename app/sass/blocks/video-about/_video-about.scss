@@ -7,10 +7,18 @@
     flex-direction: column;
     align-items: center;
     padding: 71px 0 84px 0;
+
+    @include mq-extra-e-e-small {
+      padding: 40px 0;
+    }
   }
 
   &__content {
     padding: 0 0 65px 0;
+
+    @include mq-extra-e-e-small {
+      padding: 0 0 20px 0;
+    }
   }
 
   &__title {
@@ -19,11 +27,20 @@
     font-size: 36px;
     text-align: center;
     color: #FFFFFF;
+
+    @include mq-extra-e-e-small {
+      padding: 0 0 15px 0;
+      font-size: $h2-mobile;
+    }
   }
 
   &__text {
     text-align: center;
     color: #FFFFFF;
+
+    @include mq-extra-e-e-small {
+      font-size: 15px;
+    }
   }
 
   &__video {
@@ -35,6 +52,11 @@
     background-image: url("../img/video-about_city.jpg");
     background-repeat: no-repeat;
     border-radius: 10px;
+
+    @include mq-extra-e-e-small {
+      width: 95%;
+      height: 100%;
+    }
   }
 
   &__btn {

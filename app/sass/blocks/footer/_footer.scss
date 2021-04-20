@@ -4,12 +4,21 @@
   &__items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 73px 0;
+
+    @include mq-extra-e-e-small {
+      padding: 40px 0 0 0;
+    }
   }
 
   &__item {
     display: flex;
     flex-direction: column;
+
+    @include mq-extra-e-e-small {
+      padding: 0 0 20px 0;
+    }
   }
 
   &__title {
