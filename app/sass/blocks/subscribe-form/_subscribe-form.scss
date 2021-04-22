@@ -13,6 +13,11 @@
     @include mq-extra-e-small {
       padding: 40px 0;
     }
+
+    @include mq-extra-small {
+      border: none;
+      padding: 60px 0;
+    }
   }
 
   &__title {
@@ -69,6 +74,10 @@
       padding: 15px 10px;
       text-align: center;
       border-radius: 30px;
+    }
+
+    @include mq-extra-small {
+      padding: 15px 100px 15px 30px;
     }
   }
 

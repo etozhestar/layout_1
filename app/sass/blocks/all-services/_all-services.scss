@@ -9,6 +9,10 @@
     background: linear-gradient(to bottom, #5F12D0 10%, #FFF 30%);
   }
 
+  @include mq-extra-small {
+    background: linear-gradient(to bottom, #5F12D0 10%, #FFF 30%);
+  }
+
   &__wrap {
     padding: 96px 0 84px 0;
 
@@ -18,6 +22,10 @@
 
     @include mq-extra-e-small {
       padding: 40px 0;
+    }
+
+    @include mq-extra-small {
+      padding: 60px 0;
     }
   }
 
@@ -32,6 +40,10 @@
     }
 
     @include mq-extra-e-small {
+      flex-direction: column;
+    }
+
+    @include mq-extra-small {
       flex-direction: column;
     }
   }
@@ -54,6 +66,11 @@
       font-size: $h2-480px;
       padding: 0 0 30px 0;
     }
+
+    @include mq-extra-small {
+      text-align: center;
+      padding: 0 0 30px 0;
+    }
   }
 
   &__items {
@@ -70,6 +87,10 @@
     @include mq-extra-e-small {
       padding: 40px 0;
     }
+
+    @include mq-extra-small {
+      padding: 50px 0;
+    }
   }
 
   &__item {
@@ -81,6 +102,11 @@
     }
 
     @include mq-extra-e-small {
+      width: 300px;
+      padding: 0 0 40px 0;
+    }
+
+    @include mq-extra-small {
       width: 300px;
       padding: 0 0 40px 0;
     }
@@ -100,6 +126,11 @@
       width: 300px;
       margin: 0 0 15px 0;
     }
+
+    @include mq-extra-small {
+      width: 300px;
+      margin: 0 0 15px 0;
+    }
   }
 
   &__subtitle {
@@ -113,6 +144,10 @@
 
     @include mq-extra-e-small {
       padding: 0 0 15px 0;
+    }
+
+    @include mq-extra-small {
+      padding: 0 0 20px 0;
     }
   }
 
@@ -131,6 +166,10 @@
 
     @include mq-extra-e-small {
       padding: 0 0 15px 0;
+    }
+
+    @include mq-extra-small {
+      padding: 0 0 20px 0;
     }
   }
 

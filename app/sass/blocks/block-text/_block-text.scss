@@ -15,6 +15,11 @@
         padding: 0;
         text-align: center;
       }
+
+      @include mq-extra-small {
+        padding: 0;
+        text-align: center;
+      }
     }
   }
 
@@ -33,6 +38,10 @@
     @include mq-extra-e-small {
       padding: 0 0 20px 0;
       font-size: $h2-480px;
+    }
+
+    @include mq-extra-small {
+      padding: 0 0 30px 0;
     }
 
     &_about-us {
@@ -54,7 +63,10 @@
 
     @include mq-extra-e-small {
       padding: 0;
-      font-size: 16px
+    }
+
+    @include mq-extra-small {
+      padding: 0;
     }
 
     &_about-us {

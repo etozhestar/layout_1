@@ -11,6 +11,10 @@
     @include mq-extra-e-small {
       padding: 40px 0;
     }
+
+    @include mq-extra-small {
+      padding: 60px 0;
+    }
   }
 
   &__content {
@@ -24,6 +28,10 @@
 
     @include mq-extra-e-small {
       padding: 0 0 50px 0;
+    }
+
+    @include mq-extra-small {
+      padding: 0 0 60px 0;
     }
   }
 
@@ -48,6 +56,11 @@
       padding: 0;
       text-align: center;
     }
+
+    @include mq-extra-small {
+      padding: 0;
+      text-align: center;
+    }
   }
 
   &__img {
@@ -61,6 +74,10 @@
     }
 
     @include mq-extra-e-small {
+      display: none;
+    }
+
+    @include mq-extra-small {
       display: none;
     }
   }
@@ -78,6 +95,10 @@
     @include mq-extra-e-small {
       padding: 50px 0 0 0;
     }
+
+    @include mq-extra-small {
+      padding: 60px 0 0 0;
+    }
   }
 
   &__item {
@@ -88,6 +109,10 @@
     }
 
     @include mq-extra-e-small {
+      margin: 0 0 30px 0;
+    }
+
+    @include mq-extra-small {
       margin: 0 0 30px 0;
     }
   }
