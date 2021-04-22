@@ -7,6 +7,10 @@
     @include mq-extra-e-e-small {
       padding: 40px 0;
     }
+
+    @include mq-extra-e-small {
+      padding: 40px 0;
+    }
   }
 
   &__content {
@@ -17,9 +21,14 @@
     @include mq-extra-e-e-small {
       padding: 0 0 40px 0;
     }
+
+    @include mq-extra-e-small {
+      padding: 0 0 50px 0;
+    }
   }
 
   &__link {
+    display: block;
     padding: 0 0 0 19px;
     font-weight: 500;
     line-height: 1.25;
@@ -31,7 +40,11 @@
     }
 
     @include mq-extra-e-e-small {
-      display: block;
+      padding: 0;
+      text-align: center;
+    }
+
+    @include mq-extra-e-small {
       padding: 0;
       text-align: center;
     }
@@ -46,6 +59,10 @@
     @include mq-extra-e-e-small {
       display: none;
     }
+
+    @include mq-extra-e-small {
+      display: none;
+    }
   }
 
   &__items {
@@ -55,7 +72,11 @@
     padding: 68px 0 0 0;
 
     @include mq-extra-e-e-small {
-      padding: 30px 0 0 0;
+      padding: 40px 0 0 0;
+    }
+
+    @include mq-extra-e-small {
+      padding: 50px 0 0 0;
     }
   }
 
@@ -64,6 +85,10 @@
 
     @include mq-extra-e-e-small {
       margin: 0 0 20px 0;
+    }
+
+    @include mq-extra-e-small {
+      margin: 0 0 30px 0;
     }
   }
 

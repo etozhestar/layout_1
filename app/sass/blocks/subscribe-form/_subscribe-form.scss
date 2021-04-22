@@ -9,6 +9,10 @@
     @include mq-extra-e-e-small {
       padding: 40px 0;
     }
+
+    @include mq-extra-e-small {
+      padding: 40px 0;
+    }
   }
 
   &__title {
@@ -37,6 +41,11 @@
       box-shadow: none;
       flex-direction: column;
     }
+
+    @include mq-extra-e-small {
+      box-shadow: none;
+      flex-direction: column;
+    }
   }
 
   &__email {
@@ -50,6 +59,14 @@
       width: 220px;
       margin: 0 0 15px 0;
       padding: 10px 10px;
+      text-align: center;
+      border-radius: 30px;
+    }
+
+    @include mq-extra-e-small {
+      width: 280px;
+      margin: 0 0 20px 0;
+      padding: 15px 10px;
       text-align: center;
       border-radius: 30px;
     }
@@ -70,6 +87,11 @@
 
     @include mq-extra-e-e-small {
       padding: 10px 25px;
+      border-radius: 30px;
+    }
+
+    @include mq-extra-e-small {
+      padding: 15px 25px;
       border-radius: 30px;
     }
   }

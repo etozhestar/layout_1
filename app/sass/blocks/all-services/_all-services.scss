@@ -5,10 +5,18 @@
     background: linear-gradient(to bottom, #5F12D0 10%, #FFF 30%);
   }
 
+  @include mq-extra-e-small {
+    background: linear-gradient(to bottom, #5F12D0 10%, #FFF 30%);
+  }
+
   &__wrap {
     padding: 96px 0 84px 0;
 
     @include mq-extra-e-e-small {
+      padding: 40px 0;
+    }
+
+    @include mq-extra-e-small {
       padding: 40px 0;
     }
   }
@@ -22,6 +30,10 @@
     @include mq-extra-e-e-small {
       flex-direction: column;
     }
+
+    @include mq-extra-e-small {
+      flex-direction: column;
+    }
   }
 
   &__title {
@@ -33,8 +45,14 @@
 
     @include mq-extra-e-e-small {
       text-align: center;
-      font-size: $h2-mobile;
+      font-size: $h2-360px;
       padding: 0 0 20px 0;
+    }
+
+    @include mq-extra-e-small {
+      text-align: center;
+      font-size: $h2-480px;
+      padding: 0 0 30px 0;
     }
   }
 
@@ -46,7 +64,11 @@
     border-bottom: 1px solid #E0E0E0;
 
     @include mq-extra-e-e-small {
-      padding: 30px 0
+      padding: 30px 0;
+    }
+
+    @include mq-extra-e-small {
+      padding: 40px 0;
     }
   }
 
@@ -57,17 +79,25 @@
       width: 250px;
       padding: 0 0 30px 0;
     }
+
+    @include mq-extra-e-small {
+      width: 300px;
+      padding: 0 0 40px 0;
+    }
   }
 
   &__img {
     width: 350px;
-    height: 300px;
     margin: 0 0 27px 0;
     border-radius: 10px;
 
     @include mq-extra-e-e-small {
       width: 250px;
-      height: 200px;
+      margin: 0 0 15px 0;
+    }
+
+    @include mq-extra-e-small {
+      width: 300px;
       margin: 0 0 15px 0;
     }
   }
@@ -79,6 +109,10 @@
 
     @include mq-extra-e-e-small {
       padding: 0 0 10px 0;
+    }
+
+    @include mq-extra-e-small {
+      padding: 0 0 15px 0;
     }
   }
 
@@ -93,6 +127,10 @@
 
     @include mq-extra-e-e-small {
       padding: 0 0 10px 0;
+    }
+
+    @include mq-extra-e-small {
+      padding: 0 0 15px 0;
     }
   }
 

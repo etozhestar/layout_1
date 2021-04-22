@@ -8,6 +8,10 @@
     @include mq-extra-e-e-small {
       padding: 40px 0;
     }
+
+    @include mq-extra-e-small {
+      padding: 40px 0;
+    }
   }
 
   &__title {
@@ -34,6 +38,11 @@
     @include mq-extra-e-e-small {
       padding: 0 0 15px 0;
       font-size: 26px;
+    }
+
+    @include mq-extra-e-small {
+      padding: 0 0 25px 0;
+      font-size: 30px;
     }
   }
 }

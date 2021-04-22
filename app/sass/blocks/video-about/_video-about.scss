@@ -11,6 +11,10 @@
     @include mq-extra-e-e-small {
       padding: 40px 0;
     }
+
+    @include mq-extra-e-small {
+      padding: 40px 0;
+    }
   }
 
   &__content {
@@ -18,6 +22,10 @@
 
     @include mq-extra-e-e-small {
       padding: 0 0 20px 0;
+    }
+
+    @include mq-extra-e-small {
+      padding: 0 0 40px 0;
     }
   }
 
@@ -30,7 +38,12 @@
 
     @include mq-extra-e-e-small {
       padding: 0 0 15px 0;
-      font-size: $h2-mobile;
+      font-size: $h2-360px;
+    }
+
+    @include mq-extra-e-small {
+      padding: 0 0 20px 0;
+      font-size: $h2-480px;
     }
   }
 
@@ -56,6 +69,11 @@
     @include mq-extra-e-e-small {
       width: 95%;
       height: 100%;
+    }
+
+    @include mq-extra-e-small {
+      width: 100%;
+      height: 180px;
     }
   }
 

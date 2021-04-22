@@ -10,6 +10,10 @@
     @include mq-extra-e-e-small {
       padding: 40px 0;
     }
+
+    @include mq-extra-e-small {
+      padding: 40px 0;
+    }
   }
 
   &__items {
@@ -22,6 +26,10 @@
     @include mq-extra-e-e-small {
       padding: 30px 0 10px 0;
     }
+
+    @include mq-extra-e-small {
+      padding: 40px 0 15px 0;
+    }
   }
 
   &__item {
@@ -29,6 +37,10 @@
     height: 255px;
 
     @include mq-extra-e-e-small {
+      padding: 0 0 20px 0;
+    }
+
+    @include mq-extra-e-small {
       padding: 0 0 20px 0;
     }
   }
